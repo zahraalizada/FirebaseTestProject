@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AE071262C78DF01009B8058 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE071252C78DF01009B8058 /* LoginController.swift */; };
+		1AE071282C78DF0B009B8058 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE071272C78DF0B009B8058 /* RegisterController.swift */; };
+		1AE0712A2C78E72B009B8058 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE071292C78E72B009B8058 /* UserAuth.swift */; };
 		1AEAB7162C763A0C00C9E544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAB7152C763A0C00C9E544 /* AppDelegate.swift */; };
 		1AEAB7182C763A0C00C9E544 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAB7172C763A0C00C9E544 /* SceneDelegate.swift */; };
 		1AEAB71A2C763A0C00C9E544 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAB7192C763A0C00C9E544 /* ViewController.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AE071252C78DF01009B8058 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		1AE071272C78DF0B009B8058 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		1AE071292C78E72B009B8058 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
 		1AEAB7122C763A0C00C9E544 /* FirebaseTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEAB7152C763A0C00C9E544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AEAB7172C763A0C00C9E544 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,7 +77,10 @@
 				1AEAB7152C763A0C00C9E544 /* AppDelegate.swift */,
 				1AEAB7172C763A0C00C9E544 /* SceneDelegate.swift */,
 				1AEAB7192C763A0C00C9E544 /* ViewController.swift */,
+				1AE071292C78E72B009B8058 /* UserAuth.swift */,
 				1AEAB71B2C763A0C00C9E544 /* Main.storyboard */,
+				1AE071252C78DF01009B8058 /* LoginController.swift */,
+				1AE071272C78DF0B009B8058 /* RegisterController.swift */,
 				1AEAB71E2C763A0E00C9E544 /* Assets.xcassets */,
 				1AEAB7202C763A0E00C9E544 /* LaunchScreen.storyboard */,
 				1AEAB7292C763A6C00C9E544 /* GoogleService-Info.plist */,
@@ -162,7 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE0712A2C78E72B009B8058 /* UserAuth.swift in Sources */,
+				1AE071282C78DF0B009B8058 /* RegisterController.swift in Sources */,
 				1AEAB71A2C763A0C00C9E544 /* ViewController.swift in Sources */,
+				1AE071262C78DF01009B8058 /* LoginController.swift in Sources */,
 				1AEAB7162C763A0C00C9E544 /* AppDelegate.swift in Sources */,
 				1AEAB7182C763A0C00C9E544 /* SceneDelegate.swift in Sources */,
 			);
